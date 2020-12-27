@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<serviceConfiguration>
+	<startPort>18081</startPort>
+	<webAppContextPath>/resourcehost</webAppContextPath>
+	<protocol>http</protocol>
+	<warFilePath>../ResourceHostingService/webapps/resourcehost.war</warFilePath>
+	<resourceContextPath>/clearinsightresources</resourceContextPath>
+	<resourceBase>../ResourceHostingService/webapps/clearinsightresources</resourceBase>
+	<serviceResourceContextPath>/serviceResources</serviceResourceContextPath>
+	<externalLibraryFolderPath>../CommonLibrary</externalLibraryFolderPath>
+	<serviceResourceBase>../ResourceHostingService/webapps/serviceResources/</serviceResourceBase>
+	<dynamicConfigurationFilePath>../ResourceHostingService/src/main/resources/dynamicconfig/dynamicConfiguration.json</dynamicConfigurationFilePath>
+	<jettyWebappsPath>../ResourceHostingService/jettyWebapps/</jettyWebappsPath>
+	<readerViewThreadPoolMaxSize>50</readerViewThreadPoolMaxSize>
+</serviceConfiguration>

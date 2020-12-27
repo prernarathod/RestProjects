@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration monitorInterval="5">
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p [THREAD=%t]-[%c{1}] [line %L] %.10000m %n" />
+		</Console>
+		<RollingRandomAccessFile append="true" bufferSize="1024" fileName="../ResourceHostingService/LogFiles/AllLogFiles.log" filePattern="../ResourceHostingService/LogFiles/AllLogFiles.log.%i" immediateFlush="false" name="RollingRandomAccessFile">
+			<PatternLayout pattern="%d %-5p [THREAD=%t]-[%c{1}] [line %L] %.10000m %n"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB"/>
+			</Policies>
+			<DefaultRolloverStrategy max="10"/>
+			<ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+		</RollingRandomAccessFile>
+		<RollingRandomAccessFile append="true" bufferSize="1024" fileName="../ResourceHostingService/LogFiles/ErrorLogFiles.log" filePattern="../ResourceHostingService/LogFiles/ErrorLogFiles.log.%i" immediateFlush="false" name="ErrorRollingRandomAccessFile">
+			<PatternLayout pattern="%d %-5p [THREAD=%t]-[%c{1}] [line %L] %.10000m %n"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB"/>
+			</Policies>
+			<DefaultRolloverStrategy max="10"/>
+			<ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+		</RollingRandomAccessFile>
+			</Appenders>
+	<Loggers>
+		
+		<Logger name="com.klera.resourcehost">
+			<AppenderRef level="warn" ref="RollingRandomAccessFile"/>
+			<AppenderRef level="error" ref="ErrorRollingRandomAccessFile"/>
+		</Logger>
+		<Root level="warn">
+		</Root>
+	</Loggers>
+</Configuration>

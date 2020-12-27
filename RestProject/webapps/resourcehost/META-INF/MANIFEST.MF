@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Class-Path: CommonLibrary/platformSDK-4.0.10.jar CommonLibrary/datasto
+ resdk-4.0.10.jar CommonLibrary/transport-7.1.1.jar CommonLibrary/elas
+ ticsearch-7.1.1.jar CommonLibrary/elasticsearch-core-7.1.1.jar Common
+ Library/elasticsearch-secure-sm-7.1.1.jar CommonLibrary/elasticsearch
+ -x-content-7.1.1.jar CommonLibrary/snakeyaml-1.17.jar CommonLibrary/j
+ ackson-dataformat-smile-2.8.11.jar CommonLibrary/jackson-dataformat-y
+ aml-2.8.11.jar CommonLibrary/jackson-dataformat-cbor-2.8.11.jar Commo
+ nLibrary/elasticsearch-geo-7.1.1.jar CommonLibrary/lucene-core-8.0.0.
+ jar CommonLibrary/lucene-analyzers-common-8.0.0.jar CommonLibrary/luc
+ ene-backward-codecs-8.0.0.jar CommonLibrary/lucene-grouping-8.0.0.jar
+  CommonLibrary/lucene-highlighter-8.0.0.jar CommonLibrary/lucene-join
+ -8.0.0.jar CommonLibrary/lucene-memory-8.0.0.jar CommonLibrary/lucene
+ -misc-8.0.0.jar CommonLibrary/lucene-queries-8.0.0.jar CommonLibrary/
+ lucene-queryparser-8.0.0.jar CommonLibrary/lucene-sandbox-8.0.0.jar C
+ ommonLibrary/lucene-spatial-8.0.0.jar CommonLibrary/lucene-spatial-ex
+ tras-8.0.0.jar CommonLibrary/lucene-spatial3d-8.0.0.jar CommonLibrary
+ /lucene-suggest-8.0.0.jar CommonLibrary/elasticsearch-cli-7.1.1.jar C
+ ommonLibrary/jopt-simple-5.0.2.jar CommonLibrary/hppc-0.7.1.jar Commo
+ nLibrary/joda-time-2.10.1.jar CommonLibrary/t-digest-3.2.jar CommonLi
+ brary/HdrHistogram-2.1.9.jar CommonLibrary/jna-4.5.1.jar CommonLibrar
+ y/transport-netty4-client-7.1.1.jar CommonLibrary/netty-codec-http-4.
+ 1.32.Final.jar CommonLibrary/netty-handler-4.1.32.Final.jar CommonLib
+ rary/reindex-client-7.1.1.jar CommonLibrary/elasticsearch-rest-client
+ -7.1.1.jar CommonLibrary/httpclient-4.5.7.jar CommonLibrary/httpcore-
+ 4.4.11.jar CommonLibrary/httpasyncclient-4.1.4.jar CommonLibrary/http
+ core-nio-4.4.11.jar CommonLibrary/commons-codec-1.11.jar CommonLibrar
+ y/elasticsearch-ssl-config-7.1.1.jar CommonLibrary/lang-mustache-clie
+ nt-7.1.1.jar CommonLibrary/compiler-0.9.3.jar CommonLibrary/percolato
+ r-client-7.1.1.jar CommonLibrary/parent-join-client-7.1.1.jar CommonL
+ ibrary/rank-eval-client-7.1.1.jar CommonLibrary/commons-csv-1.7.jar C
+ ommonLibrary/commons-lang3-3.9.jar CommonLibrary/ignite-core-2.7.5.ja
+ r CommonLibrary/cache-api-1.0.0.jar CommonLibrary/annotations-13.0.ja
+ r CommonLibrary/ignite-shmem-1.0.0.jar CommonLibrary/datastorequery-4
+ .0.10.jar CommonLibrary/netty-transport-4.1.39.Final.jar CommonLibrar
+ y/netty-common-4.1.39.Final.jar CommonLibrary/netty-buffer-4.1.39.Fin
+ al.jar CommonLibrary/netty-resolver-4.1.39.Final.jar CommonLibrary/ne
+ tty-codec-4.1.39.Final.jar CommonLibrary/amqp-client-5.7.3.jar Common
+ Library/platformsdkcore-4.0.10.jar CommonLibrary/msgpack-0.6.12.jar C
+ ommonLibrary/json-simple-1.1.1.jar CommonLibrary/javassist-3.18.1-GA.
+ jar CommonLibrary/javax.servlet-api-4.0.1.jar CommonLibrary/spring-co
+ re-5.1.9.RELEASE.jar CommonLibrary/spring-jcl-5.1.9.RELEASE.jar Commo
+ nLibrary/guava-23.0.jar CommonLibrary/jsr305-1.3.9.jar CommonLibrary/
+ error_prone_annotations-2.0.18.jar CommonLibrary/j2objc-annotations-1
+ .1.jar CommonLibrary/animal-sniffer-annotations-1.14.jar CommonLibrar
+ y/spring-web-5.1.9.RELEASE.jar CommonLibrary/spring-beans-5.1.9.RELEA
+ SE.jar CommonLibrary/spring-webmvc-5.1.9.RELEASE.jar CommonLibrary/sp
+ ring-aop-5.1.9.RELEASE.jar CommonLibrary/spring-expression-5.1.9.RELE
+ ASE.jar CommonLibrary/log4j-slf4j-impl-2.12.1.jar CommonLibrary/slf4j
+ -api-1.7.25.jar CommonLibrary/log4j-api-2.12.1.jar CommonLibrary/log4
+ j-core-2.12.1.jar CommonLibrary/spring-context-5.1.9.RELEASE.jar Comm
+ onLibrary/jackson-core-2.10.0.pr1.jar CommonLibrary/jackson-databind-
+ 2.10.0.pr1.jar CommonLibrary/jackson-annotations-2.10.0.pr1.jar Commo
+ nLibrary/jetty-servlets-9.4.9.v20180320.jar CommonLibrary/jetty-conti
+ nuation-9.4.9.v20180320.jar CommonLibrary/jetty-http-9.4.9.v20180320.
+ jar CommonLibrary/jetty-util-9.4.9.v20180320.jar CommonLibrary/jetty-
+ io-9.4.9.v20180320.jar CommonLibrary/commons-dbcp2-2.7.0.jar CommonLi
+ brary/commons-pool2-2.7.0.jar CommonLibrary/commons-logging-1.2.jar C
+ ommonLibrary/commons-fileupload-1.4.jar CommonLibrary/commons-io-2.2.
+ jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.4.0
+

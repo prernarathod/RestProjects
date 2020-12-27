@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Class-Path: CommonLibrary/platformSDK-4.0.10.jar CommonLibrary/datasto
+ resdk-4.0.10.jar CommonLibrary/transport-7.1.1.jar CommonLibrary/elas
+ ticsearch-7.1.1.jar CommonLibrary/elasticsearch-core-7.1.1.jar Common
+ Library/elasticsearch-secure-sm-7.1.1.jar CommonLibrary/elasticsearch
+ -x-content-7.1.1.jar CommonLibrary/snakeyaml-1.17.jar CommonLibrary/j
+ ackson-dataformat-smile-2.8.11.jar CommonLibrary/jackson-dataformat-y
+ aml-2.8.11.jar CommonLibrary/jackson-dataformat-cbor-2.8.11.jar Commo
+ nLibrary/elasticsearch-geo-7.1.1.jar CommonLibrary/lucene-core-8.0.0.
+ jar CommonLibrary/lucene-analyzers-common-8.0.0.jar CommonLibrary/luc
+ ene-backward-codecs-8.0.0.jar CommonLibrary/lucene-grouping-8.0.0.jar
+  CommonLibrary/lucene-highlighter-8.0.0.jar CommonLibrary/lucene-join
+ -8.0.0.jar CommonLibrary/lucene-memory-8.0.0.jar CommonLibrary/lucene
+ -misc-8.0.0.jar CommonLibrary/lucene-queries-8.0.0.jar CommonLibrary/
+ lucene-queryparser-8.0.0.jar CommonLibrary/lucene-sandbox-8.0.0.jar C
+ ommonLibrary/lucene-spatial-8.0.0.jar CommonLibrary/lucene-spatial-ex
+ tras-8.0.0.jar CommonLibrary/lucene-spatial3d-8.0.0.jar CommonLibrary
+ /lucene-suggest-8.0.0.jar CommonLibrary/elasticsearch-cli-7.1.1.jar C
+ ommonLibrary/jopt-simple-5.0.2.jar CommonLibrary/hppc-0.7.1.jar Commo
+ nLibrary/joda-time-2.10.1.jar CommonLibrary/t-digest-3.2.jar CommonLi
+ brary/HdrHistogram-2.1.9.jar CommonLibrary/jna-4.5.1.jar CommonLibrar
+ y/transport-netty4-client-7.1.1.jar CommonLibrary/netty-codec-http-4.
+ 1.32.Final.jar CommonLibrary/netty-handler-4.1.32.Final.jar CommonLib
+ rary/reindex-client-7.1.1.jar CommonLibrary/elasticsearch-rest-client
+ -7.1.1.jar CommonLibrary/httpclient-4.5.7.jar CommonLibrary/httpcore-
+ 4.4.11.jar CommonLibrary/httpasyncclient-4.1.4.jar CommonLibrary/http
+ core-nio-4.4.11.jar CommonLibrary/commons-codec-1.11.jar CommonLibrar
+ y/commons-logging-1.1.3.jar CommonLibrary/elasticsearch-ssl-config-7.
+ 1.1.jar CommonLibrary/lang-mustache-client-7.1.1.jar CommonLibrary/co
+ mpiler-0.9.3.jar CommonLibrary/percolator-client-7.1.1.jar CommonLibr
+ ary/parent-join-client-7.1.1.jar CommonLibrary/rank-eval-client-7.1.1
+ .jar CommonLibrary/log4j-api-2.12.1.jar CommonLibrary/log4j-core-2.12
+ .1.jar CommonLibrary/commons-csv-1.7.jar CommonLibrary/commons-lang3-
+ 3.9.jar CommonLibrary/ignite-core-2.7.5.jar CommonLibrary/cache-api-1
+ .0.0.jar CommonLibrary/annotations-13.0.jar CommonLibrary/ignite-shme
+ m-1.0.0.jar CommonLibrary/datastorequery-4.0.10.jar CommonLibrary/net
+ ty-transport-4.1.39.Final.jar CommonLibrary/netty-common-4.1.39.Final
+ .jar CommonLibrary/netty-buffer-4.1.39.Final.jar CommonLibrary/netty-
+ resolver-4.1.39.Final.jar CommonLibrary/netty-codec-4.1.39.Final.jar 
+ CommonLibrary/amqp-client-5.7.3.jar CommonLibrary/slf4j-api-1.7.26.ja
+ r CommonLibrary/jackson-databind-2.10.0.pr1.jar CommonLibrary/jackson
+ -annotations-2.10.0.pr1.jar CommonLibrary/jackson-core-2.10.0.pr1.jar
+  CommonLibrary/guava-23.0.jar CommonLibrary/jsr305-1.3.9.jar CommonLi
+ brary/error_prone_annotations-2.0.18.jar CommonLibrary/j2objc-annotat
+ ions-1.1.jar CommonLibrary/animal-sniffer-annotations-1.14.jar Common
+ Library/platformsdkcore-4.0.10.jar CommonLibrary/msgpack-0.6.12.jar C
+ ommonLibrary/json-simple-1.1.1.jar CommonLibrary/javassist-3.18.1-GA.
+ jar CommonLibrary/log4j-slf4j-impl-2.12.1.jar CommonLibrary/jetty-web
+ app-9.4.9.v20180320.jar CommonLibrary/jetty-xml-9.4.9.v20180320.jar C
+ ommonLibrary/jetty-servlet-9.4.9.v20180320.jar CommonLibrary/jetty-se
+ curity-9.4.9.v20180320.jar CommonLibrary/jetty-annotations-9.4.9.v201
+ 80320.jar CommonLibrary/jetty-plus-9.4.9.v20180320.jar CommonLibrary/
+ jetty-jndi-9.4.9.v20180320.jar CommonLibrary/javax.annotation-api-1.2
+ .jar CommonLibrary/asm-6.0.jar CommonLibrary/asm-commons-6.0.jar Comm
+ onLibrary/asm-tree-6.0.jar CommonLibrary/jetty-server-9.4.9.v20180320
+ .jar CommonLibrary/javax.servlet-api-3.1.0.jar CommonLibrary/jetty-ht
+ tp-9.4.9.v20180320.jar CommonLibrary/jetty-io-9.4.9.v20180320.jar Com
+ monLibrary/websocket-server-9.4.9.v20180320.jar CommonLibrary/websock
+ et-common-9.4.9.v20180320.jar CommonLibrary/websocket-api-9.4.9.v2018
+ 0320.jar CommonLibrary/websocket-client-9.4.9.v20180320.jar CommonLib
+ rary/jetty-client-9.4.9.v20180320.jar CommonLibrary/websocket-servlet
+ -9.4.9.v20180320.jar CommonLibrary/jetty-servlets-9.4.9.v20180320.jar
+  CommonLibrary/jetty-continuation-9.4.9.v20180320.jar CommonLibrary/j
+ etty-util-9.4.9.v20180320.jar CommonLibrary/apache-jsp-9.4.9.v2018032
+ 0.jar CommonLibrary/jetty-schemas-3.1.jar CommonLibrary/apache-jsp-8.
+ 5.24.2.jar CommonLibrary/apache-el-8.5.24.2.jar CommonLibrary/ecj-3.1
+ 2.3.jar CommonLibrary/apache-jstl-9.4.9.v20180320.jar CommonLibrary/t
+ aglibs-standard-spec-1.2.5.jar CommonLibrary/taglibs-standard-impl-1.
+ 2.5.jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Integration for Eclipse
+Main-Class: com.klera.resourcehostlauncher.UILoader
+
