@@ -37,7 +37,7 @@ public class FileUploadController {
 	@Autowired
 	ServletContext context;
 
-	@RequestMapping(value = "/uploadmultipleresources", method = RequestMethod.POST)
+	@RequestMapping(value = "/uploadmultiplefiles", method = RequestMethod.POST)
 	public ResponseEntity<FileInfo[]> upload(HttpServletRequest request, @RequestParam("resource") CommonsMultipartFile[] files) {
 		ResponseEntity<FileInfo[]> response = null;
 		FileInfo[] ulrMap = new FileInfo[files.length];
@@ -76,7 +76,7 @@ public class FileUploadController {
 		return response;
 	}
 	
-	@RequestMapping(value = "/uploadsingleresource", method = RequestMethod.POST)
+	@RequestMapping(value = "/uploadsinglefile", method = RequestMethod.POST)
 	public ResponseEntity<FileInfo> uploadSingleFile(HttpServletRequest request, @RequestParam("resource") CommonsMultipartFile inputFile) {
 		ResponseEntity<FileInfo> response = null;
 		HttpHeaders headers = new HttpHeaders();

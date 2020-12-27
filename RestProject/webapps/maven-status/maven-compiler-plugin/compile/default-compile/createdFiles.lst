@@ -1,6 +1,0 @@
-com\klera\resourcehost\controller\FileUploadController.class
-com\klera\resourcehost\common\ServiceConfiguration.class
-com\klera\resourcehost\common\Constants.class
-com\klera\resourcehost\controller\FileDownloadController.class
-com\klera\resourcehost\common\Utility.class
-com\klera\resourcehost\model\FileInfo.class
