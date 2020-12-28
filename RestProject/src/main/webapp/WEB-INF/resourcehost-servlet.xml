@@ -25,9 +25,9 @@
 		<bean id="multipartResolver"
 			class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		</bean>
-		<bean id="Utility" class="com.klera.resourcehost.common.Utility" scope="singleton" />
-		<bean id="ServiceConfiguration" class="com.klera.resourcehost.common.ServiceConfiguration" scope="singleton" />
-		<context:component-scan base-package="com.klera.resourcehost.controller" />
+		<bean id="Utility" class="com.restproject.common.Utility" scope="singleton" />
+		<bean id="ServiceConfiguration" class="com.restproject.common.ServiceConfiguration" scope="singleton" />
+		<context:component-scan base-package="com.restproject.controller" />
 	</beans>
 </beans:beans>	
 
