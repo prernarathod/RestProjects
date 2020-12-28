@@ -24,7 +24,7 @@
 			</Appenders>
 	<Loggers>
 		
-		<Logger name="com.klera.resourcehost">
+		<Logger name="com.restproject">
 			<AppenderRef level="warn" ref="RollingRandomAccessFile"/>
 			<AppenderRef level="error" ref="ErrorRollingRandomAccessFile"/>
 		</Logger>
